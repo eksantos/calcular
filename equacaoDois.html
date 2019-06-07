@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Equação do 2º Grau</title>
+	<meta charset= "utf-8" >
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="equacaoDois.css" media="all"/>
+	<script src="equacaoDois.js"></script>
+</head>
+
+<body >
+	<header id="header">
+		<h1>Equação do 2º Grau</h1>
+	</header>
+	<h2>Digite os coeficientes:</h2>
+
+	<div id="formulario" >
+	 
+	<form name="coeficiente" id="frm">
+	 
+		<label for="coeficiente_a" class="b_label">
+			ax<sup>2</sup> <input type="number" id="coeficiente_a" name="coeficiente_a" class="bloco" >
+		</label>
+	 
+		<label for="coeficiente_b" >
+			bx  <input type="number" id="coeficiente_b" name="coeficiente_b" class="bloco" >
+		</label>
+
+		<label for="coeficiente_c" >
+			c  <input type="number" id="coeficiente_c" name="coeficiente_c" class="bloco">
+		</label>
+
+		<button name="calcular" id="calcular" onClick="calcularEquacao()">CALCULAR</button>
+
+	 
+	</form>
+	
+	</div>
+
+</body>
+</html>

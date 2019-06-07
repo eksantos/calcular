@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conversão</title>
+	<meta charset= "utf-8" >
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="equacaoDois.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="conversao.css" media="all"/>
+	<script src="conversao.js"></script>
+</head>
+
+<body >
+	<header>
+		<h1>Conversão C° -> F°</h1>
+	</header>
+	
+	<h2>Digite o grau em Celsius:</h2>
+
+	<div id="formulario" class="conversao">
+	 
+	<form name="conversao" id="frm" class="semBloco">
+	 
+		<label for="grau" class="b_label" id="lblcel">
+			C° <input type="number" id="cel" name="cel" class="bloco" >
+		</label>
+	 
+		<label for="far" id="lblfar">
+			F°  <input type="text" id="far" name="far" class="bloco" readOnly>
+		</label>
+
+		<button name="calcular" id="calcular" onClick="converterGrau()">CONVERTER</button>
+		<button name="alterar" id="alterar" onClick="alterar()">ALTERAR</button>
+	 
+	</form>
+	
+	</div>
+
+</body>
+</html>

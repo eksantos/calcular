@@ -1,0 +1,15 @@
+p{
+    border: 2px white solid;
+    color:#111;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+label{
+	width: 300px;
+}
+
+form, h2{
+	font-size: 25px;
+}

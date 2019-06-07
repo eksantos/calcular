@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Classificar Triângulo</title>
+	<meta charset= "utf-8" >
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="triangulo.css" media="all"/>
+	<script src="triangulo.js"></script>
+</head>
+
+<body >
+	<header>
+		<h1>Classificação Triângulo</h1>
+	</header>
+	<h2>Digite os lados do triângulos:</h2>
+
+	<div id="formulario" >
+	 
+	<form name="lados" id="frm">
+	 
+		<label for="lado1" class="b_label">
+			Lado 1 <input type="number" id="lado1" name="lado1" class="bloco" >
+		</label>
+	 
+		<label for="lado2" >
+			Lado 2  <input type="number" id="lado2" name="lado2" class="bloco" >
+		</label>
+
+		<label for="lado3" >
+			Lado 3  <input type="number" id="lado3" name="lado3" class="bloco">
+		</label>
+
+		<button name="calcular" id="calcular" onClick="classificarTriangulo()">CALCULAR</button>
+
+	 
+	</form>
+	
+	</div>
+
+</body>
+</html>
